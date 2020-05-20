@@ -1,0 +1,66 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 2%;
+}
+navbar ul{
+  text-transform: uppercase;
+  list-style: none;
+  background-color: blueviolet;
+  margin-top: -5px;
+  padding: 15px;
+}
+h1{
+  text-align: center;
+  background-color: rgb(179, 121, 233);
+  padding: 15px;
+  margin-top: -18px;
+  color: white;
+}
+navbar ul li{
+  display: inline-block;
+  margin-left: 25px;
+}
+navbar ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 14.5px 10px;
+  transition: background 0.5s;
+}
+navbar ul li a:hover{
+  background-color: rgb(90, 28, 148);
+}
+.container,.container2{
+  background-color: rgba(60, 234, 247, 0.445) ; 
+  padding: 15px 0;
+}
+.container .card{
+  display: inline-block;
+  margin-left: 4.5%;
+}
+.container .card{
+  width: 230px;
+  background-color: pink;
+  padding-bottom: 15px;
+  transition: background .3s;
+}
+.container .card:hover{
+  background:rgb(145, 109, 115);
+  color :white;
+}
+.container .card p,h4{
+  text-align: center;
+  transition: color .4s;
+ 
+}
+.container a{
+  text-decoration: none;
+  color: #444;   
+    
+}
+footer{
+  padding: 10px 0;
+  background-color:rgb(87, 24, 146);
+}
+footer p {
+  text-align: center;
+}
